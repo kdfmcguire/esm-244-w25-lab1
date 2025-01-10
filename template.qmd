@@ -243,7 +243,7 @@ We can make maps interactive in R using the tmaps package (another reason why ht
 There are other packages that do similar things. Consider for your shiny apps!
 
 ```{r}
-tmap_model("view")
+tmap_mode("view")
 
 tm_shape(oak_pine_sf)+
   tm_dots(col='spp_sci')
